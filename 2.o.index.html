@@ -1,8 +1,56 @@
-<!DOCTYPE html>
-<body>
-    bruh
+<!doctype html>
+if(paused){ requestAnimationFrame(loop); return; }
+const dt = (ts - lastTime) / 1000; // sec
+lastTime = ts;
+update(dt);
+requestAnimationFrame(loop);
+}
 
+
+function gameOver(){
+// flits scherm
+ctx.fillStyle = 'rgba(255,86,86,.22)';
+ctx.fillRect(0,0,canvas.width,canvas.height);
+// tekst
+ctx.fillStyle = '#ffffff';
+ctx.font = '700 28px system-ui, Segoe UI, Roboto';
+ctx.textAlign = 'center';
+ctx.fillText('Game Over – klik om opnieuw', canvas.width/2, canvas.height/2);
+paused = true;
+}
+
+
+// input
+window.addEventListener('keydown', e => {
+const k = e.key.toLowerCase();
+if(k==='arrowup' || k==='w'){ nextDir = {x:0,y:-1}; e.preventDefault(); }
+else if(k==='arrowdown' || k==='s'){ nextDir = {x:0,y:1}; e.preventDefault(); }
+else if(k==='arrowleft' || k==='a'){ nextDir = {x:-1,y:0}; e.preventDefault(); }
+else if(k==='arrowright' || k==='d'){ nextDir = {x:1,y:0}; e.preventDefault(); }
+else if(k==='p'){ togglePause(); }
+}, {passive:false});
+
+
+pauseBtn.addEventListener('click', togglePause);
+
+
+function togglePause(){
+paused = !paused;
+pauseBtn.setAttribute('aria-pressed', String(paused));
+pauseBtn.textContent = paused ? '▶️ Hervat (P)' : '⏸ Pauze (P)';
+}
+
+
+// restart bij klik op canvas tijdens game over
+canvas.addEventListener('click', ()=>{
+if(paused){ reset(); paused=false; lastTime=performance.now(); }
+});
+
+
+// Start!
+reset();
+requestAnimationFrame(ts=>{ lastTime = ts; requestAnimationFrame(loop); });
+})();
+</script>
 </body>
-<head>
-    <title>je moeder </title>
-</head>
+</html>
