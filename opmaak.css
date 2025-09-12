@@ -15,7 +15,7 @@ ul {
     top: 0;
     padding: 0%;
     overflow: hidden;
-    background-color: grey;
+    background-color: gainsboro;
 }
 ul li { 
     float: left;
@@ -29,6 +29,6 @@ ul li a {
     text-decoration: none;
 }
 ul li :hover { 
-    background-color: gray;
+    background-color: gainsboro;
 
 }
