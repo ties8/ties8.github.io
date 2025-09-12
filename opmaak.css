@@ -22,7 +22,8 @@ ul li {
 }
 ul li a { 
     display: block;
-    color: gainsboro;
+    color: black;
+    text-size-adjust: 8;
     text-align: left;
     padding: 2%;
     text-decoration: none;
