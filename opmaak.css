@@ -15,4 +15,16 @@ ul {
     overflow: hidden;
     background-color: rgb(200, 200, 200);
 } 
+ul li { 
+    float: left;
+} 
+ul li a { 
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+}
+ul li a:hover { 
+    background-color:rgb(180, 180, 180)
 }
