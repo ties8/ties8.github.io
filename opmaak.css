@@ -2,11 +2,13 @@ body {
     background-color: white;
 }
 .tekst { 
-    color: purple;
+    color: black;
     text-align: left;
     padding: 1%;
     margin: 0;
     font-size: small;
+    background-color: white;
+    border-radius: 5%;
 }
 
 div { 
