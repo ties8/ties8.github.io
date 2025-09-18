@@ -1,13 +1,14 @@
 body { 
     background-color: white;
 }
-text style h2 {
-    font-size: small;
+div class tekst { 
     color: black;
+    text-align: left;
     padding: 1%;
     margin: 0;
-    text-align: left;
+    font-size: small;
 }
+
 div { 
     color: black;
     text-align: center;
