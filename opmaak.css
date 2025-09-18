@@ -6,8 +6,8 @@ div {
     color: black;
     text-align: center;
     font-size: 30;
-    padding: 0%;
-    margin: 2%;
+    padding: 1%;
+    margin: 0%;
     background-color: rgb(200, 200, 200);
     border-bottom: 10px;
     border-width: 1%;
@@ -15,8 +15,8 @@ div {
 }
 ul { 
     list-style-type:none ;
-    margin: 2%;
-    padding: 0;
+    margin: 0%;
+    padding: 1%;
     overflow: hidden;
     background-color: rgb(200, 200, 200);
 } 
