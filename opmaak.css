@@ -1,7 +1,13 @@
 body { 
     background-color: white;
 }
-
+text style h2 {
+    font-size: small;
+    color: black;
+    padding: 1%;
+    margin: 0;
+    text-align: left;
+}
 div { 
     color: black;
     text-align: center;
