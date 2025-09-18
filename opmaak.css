@@ -8,7 +8,8 @@ div {
     font-size: 30;
     padding: 3% 3%;
     background-color: rgb(200, 200, 200);
-    border-bottom: 1%;
+    border-bottom: 10px;
+    border-width: 1%;
     border-color: black;
 }
 ul { 
