@@ -6,7 +6,8 @@ div {
     color: black;
     text-align: center;
     font-size: 30;
-    padding-top: 0;
+    padding: 0%;
+    margin: 2%%;
     background-color: rgb(200, 200, 200);
     border-bottom: 10px;
     border-width: 1%;
