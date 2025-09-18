@@ -49,26 +49,3 @@ nav {
     background-color: rgb(200, 200, 200);
     z-index: 1000;
 }
-body { 
-    font-family: arial, sans-serif;
-    margin: 20px;
-}
-.container { 
-    display: flex; 
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 1%;
-}
-.text { 
-    width: 60%;
-}
-.images { 
-    width: 35%;
-    text-align: right;
-}
-.images { 
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1%;
-    border-radius: 0,5%;
-}
