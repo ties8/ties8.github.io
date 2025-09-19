@@ -5,10 +5,11 @@ body {
 .tekst{
     color: black;
     text-align: left;
-    font-size: x-small;
+    font-size: small;
     padding: 1%;
     margin: 0;
     background-color: beige;
+    width: 50%;
 }
 
 div { 
