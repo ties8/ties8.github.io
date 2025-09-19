@@ -10,6 +10,7 @@ body {
     margin: 0;
     background-color: beige;
     width: 50%;
+    border-radius: 10%;
 }
 
 div { 
@@ -39,7 +40,6 @@ ul li {
 ul li a :active {
     background-color: rgb 170, 170, 170;
 }
-
 ul li a { 
     display: block; 
     color: black;
