@@ -1,7 +1,7 @@
 body { 
     background-color: white;
 }
-.tekst { 
+divv h1 { 
     color: black;
     text-align: left;
     padding: 1%;
@@ -51,8 +51,4 @@ nav {
     top: 0;
     background-color: rgb(200, 200, 200);
     z-index: 1000;
-}
-
-p{ 
-
 }
