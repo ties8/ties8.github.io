@@ -38,8 +38,9 @@ ul li {
     float: left;
 } 
 ul li a.active {
-    background-color: rgb 170, 170, 170;
+    background-color: rgb(170, 170, 170);
 }
+
 ul li a { 
     display: block; 
     color: black;
@@ -48,7 +49,7 @@ ul li a {
     padding: 1%;
     text-decoration: none;
 }
-ul li a:hover { 
+ul li a:hover:not(.active) { 
     background-color:rgb(180, 180, 180)
 }
 nav { 
