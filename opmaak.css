@@ -10,6 +10,7 @@ header {
     text-align: center;
     padding: 1%;
     margin: 0%;
+    border-bottom: 2px solid black;
 }
 
 
@@ -27,7 +28,6 @@ nav a {
 }
 
 ul { 
-    border-top: 2px solid black;
     list-style-type: none;
     margin: 0;
     padding: 0;
