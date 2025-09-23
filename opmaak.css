@@ -23,14 +23,14 @@ div {
 }
 ul { 
     list-style-type:none ;
-    margin: 0%;
+    margin: 2%;
     padding: 1%;
     overflow: hidden;
     background-color: rgb(200, 200, 200);
     border-top: 1%;
     border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
+    border-left: 2%;
+    border-right: 2%;
     border-style: solid;
     border-color: black;
 } 
