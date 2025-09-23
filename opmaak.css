@@ -28,9 +28,10 @@ ul {
     overflow: hidden;
     background-color: rgb(200, 200, 200);
     border-top: 1%;
+    gap: 5%;
     border-bottom: 0;
-    border-left: 2%;
-    border-right: 2%;
+    border-left: 0%;
+    border-right: 0%;
     border-style: solid;
     border-color: black;
 } 
