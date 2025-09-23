@@ -53,7 +53,7 @@ ul li a {
     color: black;
     text-align: center;
     margin: 0%;
-    padding: 2%;
+    padding: 0%;
     text-decoration: none;
 }
 ul li a:hover:not(.active) { 
