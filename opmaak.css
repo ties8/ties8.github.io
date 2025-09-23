@@ -47,6 +47,7 @@ ul li a:hover:not(.active) {
 }
 
 ul li a.active { 
+    vertical-align: middle;
     background-color: rgb(170, 170, 170);
     border-radius: 15%;
     padding: 8px 16px;
