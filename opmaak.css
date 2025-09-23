@@ -66,6 +66,7 @@ div {
     border-radius: 15%; 
     margin: 3%;
     padding: 20px;
+    flex: 1; /*tekst neemt de rest van de ruimte in*/
 }
 img { 
     max-width: 300px;
