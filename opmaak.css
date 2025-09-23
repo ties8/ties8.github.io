@@ -32,8 +32,9 @@ ul li a:hover:not(.active) {
 }
 
 ul li a.active { 
-    background-color: rgb(1700, 170, 170);
+    background-color: rgb(170, 170, 170);
     border-radius: 15%;
+    margin: 1px;
 }
 
 ul { 
