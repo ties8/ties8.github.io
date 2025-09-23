@@ -67,8 +67,8 @@ div {
 }
 
 div .img { 
-    max-width: fit-content;
+    max-width: 30%;
     border-radius: 10%;
     display: block;
-    margin: 8px;
+    margin: 8px right;
 }
