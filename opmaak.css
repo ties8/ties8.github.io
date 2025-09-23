@@ -78,3 +78,6 @@ ul {
     height: auto;
 }
 
+.content {
+    display: flex; 
+}
