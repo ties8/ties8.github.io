@@ -41,7 +41,7 @@ ul li {
 ul li a.active {
     background-color: rgb(170, 170, 170);
     border-radius: 20%;
-    padding: 5%;
+    padding: 10%;
     margin: 1%;
 }
 
@@ -52,7 +52,6 @@ ul li a {
     margin: 0%;
     padding: 2%;
     text-decoration: none;
-    gap: 2%;
 }
 ul li a:hover:not(.active) { 
     background-color:rgb(180, 180, 180)
