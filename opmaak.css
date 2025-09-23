@@ -21,7 +21,7 @@ nav {
 }
 
 nav a { 
-    display: inline-block;
+    vertical-align: middle; /*probleem dat de geselecteerde bubel hoger zat*/
     flex: 0 0 auto; /*breedte knoppen houden*/
     margin: 0 6px;
     padding: 14px 16px;
