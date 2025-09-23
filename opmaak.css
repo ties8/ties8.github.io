@@ -2,6 +2,12 @@ body {
     background-color: white;
 }
 
+header { 
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    padding: 2%;
+}
+
 div { 
     color: black;
     text-align: center;
@@ -10,17 +16,5 @@ div {
     margin: 0%;
     background-color: rgb(200, 200, 200);
 }
-
-.tekst{
-    color: black;
-    text-align: center;
-    font-size: small;
-    padding: 1%;
-    margin: 5%;
-    background-color: beige;
-    width: 50%;
-    border-radius: 30%;
-}
-
 
 
