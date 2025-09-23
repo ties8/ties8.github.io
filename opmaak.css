@@ -72,6 +72,10 @@ ul {
     padding: 20px;
     flex: 1; /*tekst neemt meeste ruimte in*/ 
 }
+h2 { 
+    font-size: medium;
+    font-weight: bold;
+}
 
 .foto img {  
     max-width: 300px;
