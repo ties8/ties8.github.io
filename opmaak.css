@@ -1,6 +1,7 @@
 body { 
     background-color: white;
 }
+
 p { 
     margin-top: 1px;
 }
@@ -13,7 +14,6 @@ header {
     border-bottom: 2px solid black;
 }
 
-
 nav { 
     display: flex;
     overflow-x: auto; /*horizontaal scrollen*/ 
@@ -21,10 +21,9 @@ nav {
 }
 
 nav a { 
-    vertical-align: middle; /*probleem dat de geselecteerde bubel hoger zat*/
     flex: 0 0 auto; /*breedte knoppen houden*/
-    margin: 0 6px;
-    padding: 14px 16px;
+    margin: 6px;
+    padding: 16px 16px;
 }
 
 ul { 
@@ -38,7 +37,7 @@ ul {
 ul li a { 
     display: block;
     color: black;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
@@ -50,7 +49,7 @@ ul li a.active {
     vertical-align: middle;
     background-color: rgb(170, 170, 170);
     border-radius: 15%;
-    padding: 8px 16px;
+    padding: 16px 16px;
 }
 
 ul { 
