@@ -42,7 +42,7 @@ ul li a {
     text-decoration: none;
 }
 
-li a, dropbtn { 
+li a, .dropbtn { 
     display: inline-block;
     color: rgb(200, 200, 200);
     text-align: center;
