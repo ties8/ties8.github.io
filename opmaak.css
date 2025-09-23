@@ -17,7 +17,7 @@ div {
     color: black;
     text-align: center;
     font-size: large;
-    padding: 1%;
+    padding: 0%;
     margin: 0%;
     background-color: rgb(200, 200, 200);
 }
@@ -36,7 +36,7 @@ ul {
 } 
 ul li { 
     float: left;
-    margin-left: 2%;
+    margin-right: 2%;
 } 
 ul li a.active {
     background-color: rgb(170, 170, 170);
