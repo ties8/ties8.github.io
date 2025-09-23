@@ -81,3 +81,8 @@ h2 {
     max-width: 300px;
     height: auto;
 }
+
+.foto2 img { 
+    max-width: 500px;
+    height: auto;
+}
