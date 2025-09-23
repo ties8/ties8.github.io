@@ -21,6 +21,7 @@ div {
     margin: 0%;
     background-color: rgb(200, 200, 200);
 }
+
 ul { 
     list-style-type:none ;
     margin: 0%;
@@ -37,15 +38,13 @@ ul {
 ul li { 
     float: left;
     margin-right: 2%;
-    margin-inline-start: 1%;
-    margin: 0;
     padding: 2%;
 } 
 ul li a.active {
     background-color: rgb(170, 170, 170);
     border-radius: 20%;
     padding: 10%;
-    margin: 0;
+    margin: 1%;
 }
 
 ul li a { 
