@@ -65,10 +65,8 @@ div {
     margin: 3%;
     padding: 20px;
 }
-
-div .img { 
-    max-width: 30%;
-    border-radius: 10%;
-    display: block;
-    margin: 8px right;
+img { 
+    max-width: 300px;
+    height: auto;
 }
+
