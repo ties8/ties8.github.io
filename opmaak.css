@@ -68,7 +68,7 @@ ul {
     text-align: left;
     line-height: 1.6; /*meer ruimte tussen regels*/ 
     border-radius: 15%; 
-    margin: 3%;
+    margin-top: 3%;
     padding: 20px;
     flex: 1; /*tekst neemt meeste ruimte in*/ 
 }
