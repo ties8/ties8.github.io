@@ -57,18 +57,22 @@ ul {
     top: 0;
 }
 
-div { 
+.container {
+    display: flex;
+    align-items: flex-start; /*foto en text boven uitlijnen*/
+    gap: 20px; /*ruimte foto en tekst*/
+}
+.text { 
     background-color: rgb(210, 210, 210);
     text-align: left;
-    align-items: flex-start; /*tekst&foto boven uitlijnen*/
-    gap: 20px; /*ruimte tussen tekst en foto*/
     line-height: 1.6; /*meer ruimte tussen regels*/ 
     border-radius: 15%; 
     margin: 3%;
     padding: 20px;
-    flex: 1; /*tekst neemt de rest van de ruimte in*/
+    flex: 1; /*tekst neemt meeste ruimte in*/ 
 }
-img { 
+
+.foto img {  
     max-width: 300px;
     height: auto;
     border-radius: 10%;
