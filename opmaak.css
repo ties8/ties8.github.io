@@ -56,3 +56,9 @@ ul {
     position: sticky;
     top: 0;
 }
+
+div { 
+    background-color: rgb(200, 200, 200);
+    text-align: left;
+    line-height: 1.6; /*meer ruimte tussen regels*/ 
+}
