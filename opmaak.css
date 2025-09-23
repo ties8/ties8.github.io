@@ -1,6 +1,9 @@
 body { 
     background-color: white;
 }
+p { 
+    margin-top: 1px;
+}
 
 header { 
     background-color: rgb(200, 200, 200);
