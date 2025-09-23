@@ -73,7 +73,7 @@ ul {
     flex: 1; /*tekst neemt meeste ruimte in*/ 
 }
 h2 { 
-    font-size: medium;
+    font-size: larger;
     font-weight: bold;
 }
 
