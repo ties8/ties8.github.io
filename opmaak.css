@@ -68,13 +68,13 @@ ul {
     background-color: rgb(210, 210, 210);
     text-align: left;
     line-height: 1.6; /*meer ruimte tussen regels*/ 
-    margin-top: 3%;
+    margin-top: 10px;
     padding: 20px;
     flex: 1; /*tekst neemt meeste ruimte in*/ 
 }
 
 .foto img {  
-    margin-top: 3%;
+    margin-top: 10px;
     max-width: 300px;
     height: auto;
 }
