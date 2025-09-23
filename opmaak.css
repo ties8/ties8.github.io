@@ -42,7 +42,7 @@ ul li a.active {
     background-color: rgb(170, 170, 170);
     border-radius: 20%;
     padding: 10%;
-    margin: 1%;
+    margin: 0;
 }
 
 ul li a { 
