@@ -65,3 +65,9 @@ div {
     margin: 3%;
     padding: 20px;
 }
+
+div .img { 
+    border-radius: 10%;
+    display: block;
+    margin: 8px;
+}
