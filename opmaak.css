@@ -24,7 +24,7 @@ div {
 ul { 
     list-style-type:none ;
     margin: 0%;
-    padding: 2%;
+    padding: 0%;
     overflow: hidden;
     background-color: rgb(200, 200, 200);
     border-top: 1%;
