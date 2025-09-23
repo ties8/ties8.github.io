@@ -60,6 +60,8 @@ ul {
 div { 
     background-color: rgb(200, 200, 200);
     text-align: left;
+    align-items: flex-start; /*tekst&foto boven uitlijnen*/
+    gap: 20px; /*ruimte tussen tekst en foto*/
     line-height: 1.6; /*meer ruimte tussen regels*/ 
     border-radius: 15%; 
     margin: 3%;
@@ -68,5 +70,6 @@ div {
 img { 
     max-width: 300px;
     height: auto;
+    
 }
 
