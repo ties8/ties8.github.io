@@ -61,4 +61,5 @@ div {
     background-color: rgb(200, 200, 200);
     text-align: left;
     line-height: 1.6; /*meer ruimte tussen regels*/ 
+    border-radius: 15%; 
 }
