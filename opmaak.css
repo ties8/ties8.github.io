@@ -39,7 +39,7 @@ ul li {
 } 
 ul li a.active {
     background-color: rgb(170, 170, 170);
-    border-radius: 50%;
+    border-radius: 20%;
     padding: 5%;
 
 }
