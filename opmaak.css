@@ -21,6 +21,7 @@ nav {
 }
 
 nav a { 
+    display: inline-block;
     flex: 0 0 auto; /*breedte knoppen houden*/
     margin: 0 6px;
     padding: 14px 16px;
