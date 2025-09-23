@@ -62,12 +62,12 @@ ul {
     align-items: flex-start; /*foto en text boven uitlijnen*/
     justify-content: space-between; /*tekst links foto rechts*/
     gap: 20px; /*ruimte foto en tekst*/
+    border-radius: 15%;
 }
 .text { 
     background-color: rgb(210, 210, 210);
     text-align: left;
     line-height: 1.6; /*meer ruimte tussen regels*/ 
-    border-radius: 15%; 
     margin-top: 3%;
     padding: 20px;
     flex: 1; /*tekst neemt meeste ruimte in*/ 
@@ -77,6 +77,5 @@ ul {
     margin-top: 3%;
     max-width: 300px;
     height: auto;
-    border-radius: 10%;
 }
 
