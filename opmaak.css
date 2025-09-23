@@ -62,7 +62,6 @@ ul {
     align-items: flex-start; /*foto en text boven uitlijnen*/
     justify-content: space-between; /*tekst links foto rechts*/
     gap: 20px; /*ruimte foto en tekst*/
-    border-radius: 15%;
     margin-top: 20px;
 }
 .text { 
