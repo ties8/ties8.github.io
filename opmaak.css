@@ -38,7 +38,8 @@ ul li {
     float: left;
 } 
 ul li a.active {
-    background-color: black;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50%;
 }
 
 ul li a { 
