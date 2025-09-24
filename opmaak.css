@@ -124,11 +124,19 @@ tr:nth-child(even) {
     height: auto;
     gap: 0;
 }
+
 .container2 {
-    position: fixed;
+    display: flex;
     align-items: flex-start; /*foto en text boven uitlijnen*/
-    justify-content: first baseline; /*tekst rechts foto links*/
+    justify-content: space-between; /*tekst links foto rechts*/
     margin-top: 20px;
     min-width: 100%;
     margin-bottom: 30px;
+}
+.text2 { 
+    background-color: rgb(220, 220, 220);
+    text-align: right;
+    line-height: 1.6; /*meer ruimte tussen regels*/ 
+    padding: 20px;
+    flex: 1; /*tekst neemt meeste ruimte in*/ 
 }
