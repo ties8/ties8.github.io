@@ -44,7 +44,7 @@ ul li a {
 
 li a, .dropbtn { 
     display: inline-block;
-    color: rgb(200, 200, 200);
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
