@@ -62,7 +62,6 @@ ul {
     display: flex;
     align-items: flex-start; /*foto en text boven uitlijnen*/
     justify-content: space-between; /*tekst links foto rechts*/
-    gap: 20px; /*ruimte foto en tekst*/
     margin-top: 20px;
     min-width: 100%;
     margin-bottom: 30px;
@@ -87,8 +86,12 @@ h2 {
 .foto2 img { 
     max-width: 425px;
     height: auto;
+    gap: 20px; /*ruimte foto en tekst*/
 }
 
 .foto3 img {
     max-width: 350;
+    height: auto;
+    float: left;
+    gap: 10px;
 }
