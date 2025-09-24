@@ -95,3 +95,29 @@ h2 {
     float: left;
     gap: 10px;
 }
+
+    table {
+      width: 40%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 12px;
+    }
+
+    th {
+      background-color: #444;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #d1ecf1;
+    }
