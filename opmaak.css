@@ -120,9 +120,8 @@ tr:nth-child(even) {
 }
 
 .foto4 img { 
-    max-width: 400px;
+    max-width: 450px;
     height: auto;
-    border-radius: 20;
     gap: 0;
 }
 .container2 {
