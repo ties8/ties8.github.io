@@ -81,6 +81,7 @@ h2 {
 .foto img {  
     max-width: 300px;
     height: auto;
+    gap: 20px;
 }
 
 .foto2 img { 
@@ -127,9 +128,8 @@ tr:nth-child(even) {
 .container2 {
     position: fixed;
     align-items: flex-start; /*foto en text boven uitlijnen*/
-    justify-content: space-between; /*tekst links foto rechts*/
+    justify-content: first baseline; /*tekst rechts foto links*/
     margin-top: 20px;
     min-width: 100%;
-    align-items: flex-start;
     margin-bottom: 30px;
 }
