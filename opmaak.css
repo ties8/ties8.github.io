@@ -96,24 +96,39 @@ h2 {
     gap: 10px;
 }
 
-    table {
-      width: 40%;
-      border-collapse: collapse;
-      margin: 20px;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-    th, td {
-      border: 1px solid black;
-      padding: 8px 8px;
-    }
+th, td {
+    border: 1px solid black;
+    padding: 8px 8px;
+}
 
-    th {
+th {
       background-color: #444;
       color: white;
-    }
+}
 
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.foto4 img { 
+    max-width: 400px;
+    height: auto;
+    border-radius: 20;
+    gap: 0;
+}
+.container2 {
+    position: fixed;
+    align-items: flex-start; /*foto en text boven uitlijnen*/
+    justify-content: space-between; /*tekst links foto rechts*/
+    margin-top: 20px;
+    min-width: 100%;
+    margin-bottom: 30px;
+}
