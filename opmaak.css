@@ -64,7 +64,7 @@ ul {
     justify-content: space-between; /*tekst links foto rechts*/
     gap: 20px; /*ruimte foto en tekst*/
     margin-top: 20px;
-    min-width: 40%;
+    min-width: 100%;
     margin-bottom: 30px;
 }
 .text { 
