@@ -130,5 +130,6 @@ tr:nth-child(even) {
     justify-content: space-between; /*tekst links foto rechts*/
     margin-top: 20px;
     min-width: 100%;
+    align-items: flex-start;
     margin-bottom: 30px;
 }
