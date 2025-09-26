@@ -1,5 +1,5 @@
 body { 
-    background-color: white;
+    background-color: white; /*achtergornd plekken zonder tekst*/
 }
 
 p { 
@@ -7,7 +7,7 @@ p {
 }
 
 header { 
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(200, 200, 200); /*achtergrondkleur stukje met titel*/
     text-align: center;
     padding: 1%;
     margin: 0%;
@@ -44,6 +44,9 @@ ul li a {
 
 ul li a:hover:not(.active) { 
     background-color: rgb(190, 190, 190);
+    vertical-align: middle;
+    border-radius: 15%;
+    padding: 16px 16px;
 }
 
 ul li a.active { 
