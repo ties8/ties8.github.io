@@ -8,16 +8,16 @@ p {
 
 header { 
     background-color: rgb(200, 200, 200); /*achtergrondkleur stukje met titel*/
-    text-align: center;
+    text-align: center; /*tekst in het midden*/
     padding: 1%;
     margin: 0%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid black; /*zwarte lijn tussen titel en menu balk*/
 }
 
 nav { 
-    display: flex;
-    overflow-x: auto; /*horizontaal scrollen*/ 
-    white-space: nowrap;
+    display: flex; /*links op een rij IPV onder elkaar*/
+    overflow-x: scroll; /*horizontaal scrollen*/ 
+    white-space: nowrap; /* zorgt dat er een regel blijft*/
 }
 
 nav a { 
