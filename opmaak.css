@@ -131,7 +131,9 @@ tr:nth-child(even) {
 footer { 
     font-weight: bold;
     font-size: small;
-    text-allign: center; 
+    text-align: center; 
     background-color: rgb(200, 200, 200);
+    position: sticky;
+    bottom: 0;
 }
 
