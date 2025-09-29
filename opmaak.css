@@ -143,12 +143,18 @@ footer {
     padding: 5px; 
 }
 
-.video {
+.video2 {
     position: float; 
     bottom: 30px;
     margin: 10px;
     border: 2px solid black;
     width: 400px;
     height: auto;
+}
+
+.video { 
+    font-size: small;
+    text-align: left;
+    background-color: rgb(190, 190, 190);
 }
 
