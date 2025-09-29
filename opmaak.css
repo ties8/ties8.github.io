@@ -75,6 +75,7 @@ ul { /* blijft plakken bovenin het scherm als je scrollt */
     line-height: 1.6; /*meer ruimte tussen regels*/ 
     padding: 20px;
     flex: 1; /*tekst neemt meeste ruimte in*/ 
+    min-width: 40%;
 }
 h2 { 
     font-size: larger;
