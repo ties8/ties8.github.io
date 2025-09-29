@@ -147,6 +147,7 @@ footer {
     position: float; 
     margin: 10px;
     border: 2px solid black;
-    width: 50%;
+    width: 400px;
+    height: auto;
 }
 
