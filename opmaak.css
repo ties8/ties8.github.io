@@ -118,7 +118,7 @@ th {
       color: white;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even) { /* de even nummers in de tabel hebben een andere kleur waardoor hij makkelijker ter lezen is */
     background-color: #f2f2f2;
 }
 
