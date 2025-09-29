@@ -9,8 +9,8 @@ p {
 header { 
     background-color: rgb(200, 200, 200); /* achtergrondkleur stukje met titel */
     text-align: center; /* tekst in het midden */
-    padding: 1%;
-    margin: 0%;
+    padding: 30px;
+    margin: 0px;
     border-bottom: 2px solid black; /* zwarte lijn tussen titel en menu balk */
 }
 
