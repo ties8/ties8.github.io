@@ -128,3 +128,10 @@ tr:nth-child(even) {
     gap: 0;
 }
 
+footer { 
+    font-weight: bold;
+    font-size: small;
+    text-allign: center; 
+    background-color: rgb(200, 200, 200);
+}
+
