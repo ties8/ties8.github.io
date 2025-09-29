@@ -69,14 +69,16 @@ ul { /* blijft plakken bovenin het scherm als je scrollt */
     min-width: 100%;
     margin-bottom: 30px;
 }
+
 .text { 
     background-color: rgb(220, 220, 220);
     text-align: left;
     line-height: 1.6; /*meer ruimte tussen regels*/ 
     padding: 20px;
-    flex: 1; /*tekst neemt meeste ruimte in*/ 
+    flex: 2; /*tekst neemt meeste ruimte in*/ 
     min-width: 40%;
 }
+
 h2 { 
     font-size: larger;
     font-weight: bold;
