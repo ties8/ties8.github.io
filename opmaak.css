@@ -1,27 +1,27 @@
 body { 
-    background-color: white; /*achtergornd plekken zonder tekst*/
+    background-color: white; /* achtergornd plekken zonder tekst */
 }
 
 p { 
-    margin-top: 1px; /*grotere ruimte tussen regels*/
+    margin-top: 1px; /* grotere ruimte tussen regels */
 }
 
 header { 
-    background-color: rgb(200, 200, 200); /*achtergrondkleur stukje met titel*/
-    text-align: center; /*tekst in het midden*/
+    background-color: rgb(200, 200, 200); /* achtergrondkleur stukje met titel */
+    text-align: center; /* tekst in het midden */
     padding: 1%;
     margin: 0%;
-    border-bottom: 2px solid black; /*zwarte lijn tussen titel en menu balk*/
+    border-bottom: 2px solid black; /* zwarte lijn tussen titel en menu balk */
 }
 
 nav { 
-    display: flex; /*links op een rij IPV onder elkaar*/
-    overflow-x: scroll; /*horizontaal scrollen*/ 
-    white-space: nowrap; /* zorgt dat er een regel blijft*/
+    display: flex; /* links op een rij IPV onder elkaar */
+    overflow-x: scroll; /* horizontaal scrollen */ 
+    white-space: nowrap; /* zorgt dat er een regel blijft */
 }
 
 nav a { 
-    flex: 0 0 auto; /*breedte knoppen houden*/
+    flex: 0 0 auto; /* breedte knoppen houden */
     margin: 6px;
     padding: 16px 16px;
 }
@@ -30,33 +30,33 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden; /* komt niet buiten het vlak als er teveel tekst staat */
     background-color: rgb(200, 200, 200);
     display: flex;
 }
 
 ul li a { 
-    display: block;
+    display: block; /* tekstvak */ 
     color: black;
     padding: 16px 16px;
     text-decoration: none;
 }
 
-ul li a:hover:not(.active) { 
+ul li a:hover:not(.active) { /* als je met je muis over een blokje heen gaat */
     background-color: rgb(190, 190, 190);
     vertical-align: middle;
     border-radius: 15%;
     padding: 16px 16px;
 }
 
-ul li a.active { 
+ul li a.active { /* de pagina waar je op zit */
     vertical-align: middle;
     background-color: rgb(170, 170, 170);
     border-radius: 15%;
     padding: 16px 16px;
 }
 
-ul { 
+ul { /* blijft plakken bovenin het scherm als je scrollt */
     position: sticky;
     top: 0;
 }
