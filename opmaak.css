@@ -145,11 +145,11 @@ footer {
 
 .video {
     position: float; 
-    bottom: 30px;
-    margin: 10px;
+    margin: 3px;
     border: 2px solid black;
     width: 400px;
     height: auto;
 }
+
 
 
