@@ -151,6 +151,15 @@ footer {
     height: auto;
 }
 
+.container1 {
+    display: flex;
+    align-items: flex-start; /*foto en text boven uitlijnen*/
+    justify-content: space-between; /*tekst links foto rechts*/
+    margin-top: 20px;
+    min-width: 80%;
+    margin-bottom: 50px;
+}
+
 
 
 
